@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background-color: burlywood;
+    border: 1px solid black;
+}
+.mosquitoimage{
+    display: flex;
+    justify-content: space-around;
+}
+#mos1{
+    height: 250px;
+    width: 246px;
+    border-radius: 2%;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    transition-delay:5ms; 
+}
+#mos1:hover{
+    transform: scale(1.1,1.1);
+}
+#mos2{
+    height: 250px;
+    width: 246px;
+    border-radius: 2%;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    transition-delay:5ms; 
+}
+#mos2:hover{
+    transform: scale(1.1,1.1);
+}
+#mos3{
+    height: 250px;
+    width: 246px;
+    border-radius: 2%;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    transition-delay:5ms; 
+}
+#mos3:hover{
+    transform: scale(1.1,1.1);
+}
+.bedsheetimage{
+    display: flex;
+    justify-content: space-around;
+}
+#bed1{
+    height: 250px;
+    width: 246px;
+    border-radius: 2%;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    transition-delay:5ms; 
+}
+#bed1:hover{
+    transform: scale(1.1,1.1);
+}
+#bed2{
+    height: 250px;
+    width: 246px;
+    border-radius: 2%;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    transition-delay:5ms; 
+}
+#bed2:hover{
+    transform: scale(1.1,1.1);
+}
+#bed3{
+    height: 250px;
+    width: 246px;
+    border-radius: 2%;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    transition-delay:5ms; 
+}
+#bed3:hover{
+    transform: scale(1.1,1.1);
+}
+.windowsnetimage{
+    display: flex;
+    justify-content: space-around;
+}
+#windowsnet1{
+    height: 250px;
+    width: 246px;
+    border-radius: 2%;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    transition-delay:5ms; 
+}
+#windowsnet1:hover{
+transform: scale(1.1,1.1);
+}
+#windowsnet2{
+    height: 250px;
+    width: 246px;
+    border-radius: 2%;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    transition-delay:5ms; 
+}
+#windowsnet2:hover{
+transform: scale(1.1,1.1);
+}
+#windowsnet3{
+    height: 250px;
+    width: 246px;
+    border-radius: 2%;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    transition-delay:5ms; 
+}
+#windowsnet3:hover{
+transform: scale(1.1,1.1);
+}
+.floormatimage{
+    display: flex;
+    justify-content: space-around;
+}
+#floormatimage1{
+    height: 250px;
+    width: 246px;
+    border-radius: 2%;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    transition-delay:5ms; 
+}
+#floormatimage1:hover{
+transform: scale(1.1,1.1);
+}
+#floormatimage2{
+    height: 250px;
+    width: 246px;
+    border-radius: 2%;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    transition-delay:5ms; 
+}
+#floormatimage2:hover{
+transform: scale(1.1,1.1);
+}
+#floormatimage3{
+    height: 250px;
+    width: 246px;
+    border-radius: 2%;
+    transition-property: transform;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    transition-delay:5ms; 
+}
+#floormatimage3:hover{
+transform: scale(1.1,1.1);
+}
+p{
+    text-indent: 5%;
+    margin: 0 4px;
+    text-align:justify
+}
+h2:hover{
+    color: blue;
+}
+#mosquitoh2{
+    text-decoration: none;
+    color: black;
+}
+#mosquitoh2:hover{
+    color: blue;
+}
+    
+
+
+
+    
+
+
+
+
+@media screen and (max-width:795px){
+    .mosquitoimage{
+        
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+        
+        
+    }
+    .bedsheetimage{
+        
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+        
+    }
+    .windowsnetimage{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+    }
+    .floormatimage{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 25px;
+    }
+}

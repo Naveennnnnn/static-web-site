@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <link rel="stylesheet" href="../html/style3.css">
+</head>
+<body class="contact">
+    <div class="form">
+        <form action="" method="post">
+            <fieldset>
+                <legend>contact us</legend>
+                <p id="user name">
+                    <label for="your name">Name</label>:
+                   <br> <input type="text" name="your name" id="your name" placeholder="Enter your name" maxlength="15" required>
+                </p><br>
+                <p>
+                    <label for="phone ">Phone number</label>:
+                   <br> <input type="tel" name="phone" id="phone" value="+91-" maxlength="14"  required>
+                </p><br>
+                <p id="emailid">
+                    <label for="email">E-mail</label>:
+                   <br> <input type="email" name="email" id="email" placeholder="abcd@gmail.com" required>
+
+                </p><br>
+                <p id="product">Product List:
+                    
+                    <br> <select id="select" name="Product" required>
+                        <option value="">Product list</option>
+                        <option value="1">Mosquito net</option>
+                        <option value="2">Bedsheet</option>
+                        <option value="2">windows net</option>
+                        <option value="2">Floor mat</option>
+                    </select>
+
+                </p><br>
+                <p id="comment"> Comments</p>
+                    
+                    <textarea id="commentarea" name="Comments" cols="20" rows="5" placeholder=" enter comments" ></textarea>
+            
+                <p><button id="btn">Submit</button>    
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
